@@ -1,0 +1,41 @@
+ul li
+{
+	width: 200px;
+	height: 50px;
+	background-color: blue;
+	color: #FFFFFF;
+	margin-bottom: 3px;
+	font-size: 18px;
+	border: 3px solid #000000;
+	list-style: none;
+	line-height: 50px;
+	padding-left: 4px;
+}
+
+body 
+{
+	background-color: #0F8FD4;
+}
+
+ul li:hover
+{
+	width: 250px;
+	background-color: darkblue; 
+	border: 3px solid black;
+	color: red;
+	font-weight: bold;
+	padding-left: 40px;
+	cursor: pointer;
+	transition: all 1s;
+}
+
+div
+{
+	border: 5px solid black;
+	width: 35%;
+	height: 300px;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: skyblue;
+	padding-left: 20%;
+}
